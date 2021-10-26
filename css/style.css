@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url('../img/1900901.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.userlogin{
+    background-color: #ffffff5c;
+    height: 400px;
+    width: 400px;
+    margin-top: 8%;
+    border-radius: 15px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 15px;
+    color: #033382;
+}
+.userid{
+    margin-top: 20px;
+}
+.userid h4{
+    float: left;
+    margin-left: 50px;
+    color: #033382;
+}
+.userid input{
+    height: 30px;
+    width: 300px;
+    border: solid 3px #31588d;
+    border-radius: 10px;
+}
+.password{
+   margin-top: 20px;
+}
+.password h4{
+    float: left;
+    margin-left: 50px;
+    color: #033382;
+}
+.password input{
+    height: 30px;
+    width: 300px;
+    border: solid 3px #31588d;
+    border-radius: 10px;
+}
+.buttonlogin{
+    margin-top: 20px;
+}
+.buttonlogin button{
+    height: 50px;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #033382;
+    color: #fff;
+}
+a{
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    color: #033382;
+}
+hr{
+    margin-top: 45px;
+   margin-left: 13%;
+}
+h5{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #033382;
+}
+.button{
+    margin-top: 20px;
+    display: inline-block;
+}
+.button button{
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    background-color: #033382;
+    color: #fff;
+}
+.button  fa-facebook,fa-google{
+    float: left;
+    
+    
+}
+.button p{
+    margin-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #033382;
+    color: #fff;
+    border-radius: 15px;
+}
